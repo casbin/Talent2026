@@ -410,7 +410,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2025年9月1日 - 2026年12月31日）
+### 1. 联系社区（2026年1月1日 - 2026年12月31日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://qm.qq.com/cgi-bin/qm/qr?k=G1a9A8TvsnySygiE0y3RcAll9FEazX-G&jump_from=webapi&authKey=OxuOi/et2Zzw7vuRzQFAnsO9sLJlJonNYtM9BRObV6lJs8nWKfjozA8qNmS4mdbx)
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2026-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=0Hbu5gOSLXUkENTtGaoG0zMqjyixr4ke&jump_from=webapi&authKey=3l1AOq4ChaGgbj4/cHCPXLk/UzYWJigc02l30lKUJH37Wxu+eZxXyKXx7rNXElZV) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
@@ -420,6 +420,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2025年9月1日 - 2026年12月31日）
+### 2. 官网投递（2026年1月1日 - 2026年12月31日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org
+
