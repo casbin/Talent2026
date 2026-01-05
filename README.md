@@ -8,15 +8,14 @@
 
 2021年和2022年，Casbin社区继续参加上述两项活动，Google Summer of Code 和开源软件供应链点亮计划-开源之夏，题目的数量与招纳的学生人数均创下新高。
 
-活动 | 学生人数 | 最终考核通过人数
-----|----|----
-GSoC 2020 | 3 | 3
-开源之夏2020 | 12 | 10
-GSoC 2021 | 9 | 9
-开源之夏2021 | 11 | 11
-GSoC 2022 | 12 | 11
-开源之夏2022 | 6 | 5
-
+| 活动        | 学生人数 | 最终考核通过人数 |
+|-----------|------|----------|
+| GSoC 2020 | 3    | 3        |
+| 开源之夏2020  | 12   | 10       |
+| GSoC 2021 | 9    | 9        |
+| 开源之夏2021  | 11   | 11       |
+| GSoC 2022 | 12   | 11       |
+| 开源之夏2022  | 6    | 5        |
 
 为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为Google Summer of Code 2026和开源之夏2026（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2026”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
@@ -42,21 +41,21 @@ GSoC 2022 | 12 | 11
 ### 本项目的资助额度是多少？
 
 资助金按月发放，分为基础资助金：600元 + 奖金：0~400元
-（均为每月税后，根据上手快慢程度及技术栈匹配程度会有浮动，项目开始前会协商好。）
+（根据上手快慢程度及技术栈匹配程度会有浮动）
 
 ## Casbin开源项目介绍
 
-Casbin是一个强大的、高效的开源访问控制框架，支持Go, Java, Node.js, Javascript (React), Python, PHP, .NET, C++, Rust等十几种语言。Casbin开源项目由北京大学罗杨博士创立于2017年，核心维护团队有二十多人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 10000+ stars，加上所有语言的实现、插件等可达到15000+ stars。
+Casbin是一个强大的、高效的开源访问控制框架，支持Go, Java, Node.js, Javascript (React), Python, PHP, .NET, C++, Rust等十几种语言。Casbin开源项目创立于2017年，核心维护团队有二十多人。Casbin在业界具有广泛影响力。目前已经被Intel、VMware、Orange、RedHat、T-Mobile等公司开源使用，被腾讯云、Cisco、Verizon等公司闭源使用。具体详见Casbin主页。Casbin Go主项目目前GitHub 19,000+ stars，加上所有语言的实现、插件等可达到35,000+ stars。
 
 Casbin技术已经被列入多个国内外权威机构、政府部门的白皮书：
 
-1. 国家广电总局《广播电视和网络视听区块链系统》白皮书（第85页）：http://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=e2ed95c223c34e38aa163b01030655aa.pdf
-2. 美国国家标准与技术研究院（NIST）《Attribute-based Access Control for Microservices-based Applications Using a Service Mesh》白皮书（第10页）：https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204B.pdf
+1. 美国国家标准与技术研究院（NIST）《Attribute-based Access Control for Microservices-based Applications Using a Service Mesh》白皮书（第10页）：https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204B.pdf
+2. 国家广电总局《广播电视和网络视听区块链系统》白皮书（第85页）：http://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=e2ed95c223c34e38aa163b01030655aa.pdf
 
 Casbin也曾经在国际上进行多次线下宣讲：
 
-1. 新加坡政府技术部Open Government Products：https://www.youtube.com/watch?v=OTT84oplR9o
-2. 俄罗斯最大在线旅游平台tutu.ru：https://www.youtube.com/watch?v=Z5dUxH4PqYM
+1. Apache 2021年亚洲峰会（ApacheCon Asia 2021）：https://apachecon.com/acasia2021/sessions/1049.html
+2. 新加坡政府技术部（Open Government Products）：https://www.youtube.com/watch?v=OTT84oplR9o
 
 具体请了解Casbin官网：https://casbin.org/
 
@@ -84,8 +83,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casbin核心引擎（Golang）
 2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 增强Casbin语法的表达能力，满足用户多样化的策略制定需求
@@ -103,8 +102,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casdoor身份认证系统（前端React，后端Golang）
 2. 项目描述：Casdoor是一套基于基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。Casdoor具有Web管理界面，可以用来管理用户、角色、权限（基于Casbin）
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 扩展架构，添加更多的第三方登录支持
@@ -131,8 +130,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 聊天会话日志管理，方便审计和计费。
    - 界面支持中文、英文等多语种。
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 添加新的GPT模型支持
@@ -159,8 +158,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 所有操作均记录在审计日志中，方便管理和审计。
    - 用户界面支持中文、英文等多国语言。
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 实现对Windows、Linux主机的远程桌面支持，包括RDP、VNC等
@@ -181,7 +180,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casnode社区论坛系统（前端React，后端Golang）
 2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casnode（https://github.com/casbin/casnode ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
 3. 项目难度：中
-4. 项目社区导师：[张军洁 (kocoler)](https://github.com/kocoler)
+4. 项目社区导师：[kocoler](https://github.com/kocoler)
 5. 导师联系方式：tsglsdrs (AT) 163.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -200,8 +199,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：开源社区文档系统Docusaurus优化（前端React）
 2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy@gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 通过手工或ChatGPT等自动化方式在CrowdIn翻译平台将社区项目官网英文内容翻译为中文
@@ -223,7 +222,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：jCasbin 生态完善（Java）
 2. 项目描述：jCasbin 在 Java 平台上取得了不错的进展，但是我们仍然需要努力工作，以帮助 Casbin 成为世界上最受欢迎的身份授权库。目前Java语言上最流行的授权库是Apache Shiro和Spring Security，最流行的Web框架是Spring。我们需要实现Casbin针对Spring等框架的插件，使Spring用户可以无缝接入Casbin。同时要兼容Apache Shiro和Spring Security的接口，让目前正在使用Apache Shiro和Spring Security的项目可以无缝迁移到Casbin。同时jCasbin也需要及时跟踪Golang Casbin主库的最新feature并移植到Java版本中来。
 3. 项目难度：中
-4. 项目社区导师：[房政金 (Distance)](https://github.com/fangzhengjin)
+4. 项目社区导师：[Distance](https://github.com/fangzhengjin)
 5. 导师联系方式：fangzhengjin (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -244,8 +243,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：PyCasbin 生态完善（Python）
 2. 项目描述：Casbin 是一个强大的、高效的开源访问控制框架，对主流语言都有相关实现，包括 Python 版本的 Casbin（PyCasbin）。目前，虽然 PyCasbin 主库的主要功能相对完善和稳定，但仍然需要不断迭代演进，特别是在 Python 生态内各种框架、插件的集成，代码质量和性能还有调优的可能。项目目的是对主库及其周边生态系统进行完善和优化，以增强 Casbin 在 Python 领域的应用场景，提高外部系统接入 Casbin 的效率和成本，扩大 Casbin 在 Python 领域的生态圈。
 3. 项目难度：中
-4. 项目社区导师：[李强 (techoner)](https://github.com/leeqvip)
-5. 导师联系方式：techqiang (AT) gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 实现在分布式系统中使用 RabbitMQ 做策略同步的监视器 rabbitmq-watcher。
@@ -258,14 +257,14 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/pycasbin
-   - https://github.com/pycasbin
+   - https://github.com/officialpycasbin
 
 ### Node-Casbin 生态完善（Node.js）
 
 1. 项目标题：Node-Casbin 生态完善（Node.js）
 2. 项目描述：Node-Casbin 和 Casbin.js 是基于 PERM 模型语法的访问控制库，适用于 Web、Node.js、Electron 等 JavaScript 平台。本项目的目标是加速 Node-Casbin 和 Casbin.js 在 Web 和 Node.js 平台上的插件生态系统建设。具体目标包括为 Angular、React、Vue 等主流框架提供 Starter 插件，帮助开发者快速集成 Node-Casbin 和 Casbin.js，同时维护并优化现有的 Node.js 平台的 Adapter、Watcher 和 Starter 插件。
 3. 项目难度：中
-4. 项目社区导师：[刘子轩 (nodece)](https://github.com/nodece)
+4. 项目社区导师：[nodece](https://github.com/nodece)
 5. 导师联系方式：nodeces (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -286,7 +285,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casbin.NET 生态完善（.NET, C#）
 2. 项目描述：Casbin.NET 是 Casbin 的 .NET 实现，采用独特的 PERM 模型语法来实现强大、灵活的访问控制。该项目的目标是跟进 Casbin Golang 版本的最新功能，将其移植到 .NET 版本，并维护 .NET 特有的生态系统
 3. 项目难度：中
-4. 项目社区导师：[汤贤赫 (Sagilio)](https://github.com/sagilio)
+4. 项目社区导师：[Sagilio](https://github.com/sagilio)
 5. 导师联系方式：sagilio (AT) outlook.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -306,7 +305,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casbin-RS 生态完善（Rust）
 2. 项目描述：Casbin-RS 是 Casbin 在 Rust 语言中的实现，目前需要对其生态进行完善。本项目的重点是完善 Casbin-RS 生态，包括与 Rust Web 框架的集成，解决现有 issues。
 3. 项目难度：中
-4. 项目社区导师：[刘毅涵 (qianxi0410)](https://github.com/qianxi0410)
+4. 项目社区导师：[qianxi0410](https://github.com/qianxi0410)
 5. 导师联系方式：894871277 (AT) qq.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -346,7 +345,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：SwiftCasbin 开发（Swift）
 2. 项目描述：开发Swift版本的Casbin，支持iOS App、Swift服务器端应用等生态。
 3. 项目难度：中
-4. 项目社区导师：[孟祥文 (cit117)](https://github.com/cit117)
+4. 项目社区导师：[cit117](https://github.com/cit117)
 5. 导师联系方式：cit117 (AT) me.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
@@ -366,8 +365,8 @@ Casbin也曾经在国际上进行多次线下宣讲：
 1. 项目标题：Casbin开源社区运营
 2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。
 3. 项目难度：中
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy@gmail.com
+4. 项目社区导师：[hsluoyz](https://github.com/hsluoyz)
+5. 导师联系方式：hsluoyz (AT) gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
    - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，开源之夏、明日之星等等，在活动期间对参与者进行管理
